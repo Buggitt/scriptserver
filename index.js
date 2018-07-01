@@ -24,6 +24,9 @@ const defaultConfig = {
       default: {
         rconRunning: /^\[[\d:]{8}\] \[RCON Listener #1\/INFO\]: RCON running/i,
       },
+      forge: {
+        rconRunning: /^\[[\d:]{8}\] \[RCON Listener #2\/INFO\] \[net\.minecraft\.server\.MinecraftServer\]: RCON running/i,
+      },
       spigot: {
         rconRunning: /^\[[\d:]{8} INFO\]: RCON running/i,
       },
